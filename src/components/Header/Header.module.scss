@@ -1,0 +1,90 @@
+@use "../../assets/styles/mixins" as mixin;
+
+.header {
+  box-shadow: var(--box-shadow3);
+  color: var(--primary1);
+  background-color: var(--backgroundColor);
+  padding: 10px;
+
+  .myButton {
+    border-radius: 1em 0 0 1em;
+    display: inline-block;
+    cursor: pointer;
+    color: var(--accent1);
+    font-family: Arial;
+    font-size: 17px;
+    text-decoration: none;
+
+    @include mixin.xs {
+      height: 30px;
+      width: 50px;
+   }
+
+    span {
+      @include mixin.xs {
+        display: none;
+      }
+    }
+
+  }
+
+  .myButton:hover {
+    background: linear-gradient(to bottom, #b8b1b1 5%, #c62d1f 100%);
+    background-color: #b8b1b1;
+  }
+
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+
+  i {
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+
+    @include mixin.xs {
+      display: block;
+    }
+  }
+  
+}
+
+.myButtonGreen {
+  box-shadow: 3px 4px 0px 0px #1b586e;
+  background: linear-gradient(to bottom, #1b586e  5%, #b8b1b1 100%);
+  background-color: #111b14 ;
+  border-radius: 18px;
+  border: 1px solid #050616 ;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #1b586e;
+
+  @include mixin.xs {
+    height: 50px; 
+    width: 100px;
+    padding: 2px 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+}
+
+.myButtonGreen:hover {
+  background: linear-gradient(to bottom, #b8b1b1 5%, #1b586ea9 100%);
+  background-color: #b8b1b1;
+  text-decoration: none;
+}
+
+.myButtonGreen:active {
+  position: relative;
+  top: 1px;
+}
+
+
+

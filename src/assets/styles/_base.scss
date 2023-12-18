@@ -1,0 +1,66 @@
+@use "../../assets/styles/mixins" as mixin;
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color : var(--text-color);
+    margin : 0;
+    font-family: var(--font-family);
+    background-color: var(--backgroundColor2);
+}
+
+h1,h2,h3{
+    margin : 0;
+}
+
+h2 {
+    color: var(--accent1);
+}
+h3{
+    color: var(--accent1);
+}
+h4 {
+    color: var(--accent1);
+    font-size: medium;
+}
+
+.decoNone {
+    text-decoration: none;
+}
+
+.backG {
+    background-color: rgb(215, 248, 250);
+    border-radius: 10px;
+    color: black;
+}
+
+.avatar{
+    padding: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    @include mixin.xs {
+        height: 27px;
+        width: 27px;
+      }
+
+}
+.logo{
+    height: 50px;
+    width: 300px; 
+    @include mixin.xs {
+        height: 20px;
+        width: 100px;
+      }
+
+}
+
+.titleConnexion {
+border-radius: 20px;
+margin-top: 10px;
+box-shadow: -1px -1px 5px rgba(109, 108, 108, 0.78);
+}
+

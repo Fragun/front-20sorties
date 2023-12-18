@@ -1,0 +1,103 @@
+@use "../../../assets/styles/mixins" as mixin;
+
+.app {
+  height: 50vh;
+  width: 100%;
+}
+
+.mapContainer {
+  border: solid black;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.cart {
+  background-color: var(--backgroundColor2);
+  box-shadow: var(--box-shadow3);
+  padding: 20px;
+
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.decoNone {
+  color: black;
+  text-decoration: none;
+}
+
+.carte {
+  //box-shadow: var(--box-shadow3);
+  padding-bottom: 5px;
+}
+
+.infoWindow2 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.infoWindow2 h3 {
+  margin: 0 0 5px;
+}
+
+.infoWindow2 p {
+  margin: 0;
+}
+
+.infoWindow2 a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.infoWindow2 a:hover {
+  text-decoration: underline;
+}
+
+.decoAvis {
+  margin: 0 20px 0 20px;
+}
+
+.cursorPhone {
+  cursor: url('../../../assets/png/adressIcon.png'), auto;
+}
+
+.cursorWeb {
+  cursor: url('../../../assets/png/icons8-domaine-48.png'), auto;
+}
+
+
+.cursorItineraire{
+  cursor: url('../../../assets/png/locatrionCursor.png'), auto;
+}
+
+.cursorAvis{
+  cursor: url('../../../assets/png/icons8-s2peak-48.png'), auto;
+}
+
+.cursorHoraire{
+  cursor: url('../../../assets/png/icons8-calendrier-48.png'), auto;
+}
+
+.myButtonDeco {
+width: 100%;
+ border: #1a73e842 solid  1px;
+ margin-bottom: 5px;
+ color: #1070fc;
+ background-color: #f4f7f8;
+
+ 
+}
+
+.myButtonDeco:hover {
+width: 100%;
+ border: #1a73e8 solid  1px;
+ color: #1e3799;
+ background-color: #e2f3f8;
+}

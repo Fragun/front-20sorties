@@ -1,0 +1,21 @@
+.facebookButton {
+    color: aliceblue;
+    border-radius: 7px;
+    transition: background-color .218s;
+    transition-property: background-color;
+    transition-duration: 0.218s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    width: 230px;
+    height: 38px;
+    background-color: #3b5998;
+    cursor: pointer;
+    font-family: "Google Sans", arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis; //... si le texte déborde
+}
