@@ -4,8 +4,8 @@ module.exports = (app) => {
   app.use(
     "/api/*",
     createProxyMiddleware({
-      target: "https://back-20sorties-ittp3j6dy-20-sorties.vercel.app/",
-      //secure: false,
+      target: "http://127.0.0.1:8000",
+      secure: false,
     })
   );
 };

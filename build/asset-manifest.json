@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f9c281a.css",
+    "main.js": "/static/js/main.adf8bd24.js",
+    "static/js/787.07d93129.chunk.js": "/static/js/787.07d93129.chunk.js",
+    "static/media/logo-google-maps-2017.png": "/static/media/logo-google-maps-2017.a51b5d7592e040349f7b.png",
+    "static/media/location_marker.svg": "/static/media/location_marker.cb9c2baa9fe9135a8005b72d303748b3.svg",
+    "index.html": "/index.html",
+    "main.8f9c281a.css.map": "/static/css/main.8f9c281a.css.map",
+    "main.adf8bd24.js.map": "/static/js/main.adf8bd24.js.map",
+    "787.07d93129.chunk.js.map": "/static/js/787.07d93129.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f9c281a.css",
+    "static/js/main.adf8bd24.js"
+  ]
+}
